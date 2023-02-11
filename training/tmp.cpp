@@ -194,9 +194,15 @@ ins operator<<(ins x, T n)
 ins yin;
 ins yout;
 #endif
+const ll mod = 998244353;
 int main()
 {
-    yin>>a>>b;
-    yout<<a+b<<endl;
+    // int a, b;
+    ll ans = 1;
+    for (ll i = 1; i <= 5e8; i++)
+        ans = ans * i % mod;
+    yout << ans << endl;
+    // yin >> a >> b;
+    // yout << a + b << endl;
     return 0;
 }
