@@ -1,0 +1,1 @@
+{"name":"Local: P9017","url":"/workspaces/My-OI-Codes/OJ/Luogu/P9017.cpp","tests":[{"id":1676104187999,"input":"4 3\n000 101\n101 100\n110 000\n111 000","output":"0\n1\n3\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/My-OI-Codes/OJ/Luogu/P9017.cpp","group":"local","local":true}
